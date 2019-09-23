@@ -11,6 +11,12 @@ public class Food {
             new Food("Waffles", "Belgian waffles, whipped cream, fresh fruit", 7.50, R.drawable.waffles)
     };
 
+    public static final Food[] lunchFoods = {
+            new Food("Pizza", "Three unfertilized ova of one or more members of the species Gallus gallus domesticus, thoroughly mixed with your selection of fermented solid bovine milk solids and animal flesh, cooked until safe to eat", 8.99, R.drawable.omelet),
+            new Food ("The Denna \"Special\"", "3 pankcakes, choice of meat, potato", 7.95, R.drawable.pancakes),
+            new Food("Chicken & Waffles", "Belgian waffles, whipped cream, fresh fruit", 7.50, R.drawable.waffles)
+    };
+
     public Food(String foodName, String description, double price, int imageResourceID){
         this.foodName = foodName;
         this.description = description;

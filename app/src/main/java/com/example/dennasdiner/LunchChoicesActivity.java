@@ -9,16 +9,16 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BreakfastChoicesActivity extends AppCompatActivity {
+public class LunchChoicesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_breakfast_choices);
+        setContentView(R.layout.activity_lunch_choices);
 
 
         ArrayAdapter<Food> listAdapter = new ArrayAdapter<Food>(
-                this, android.R.layout.simple_expandable_list_item_1, Food.breakfastFoods
+                this, android.R.layout.simple_expandable_list_item_1, Food.lunchFoods
         );
 
         ListView listFoods = findViewById(R.id.breakfastChoices);

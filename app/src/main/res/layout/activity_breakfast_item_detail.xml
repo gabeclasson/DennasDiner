@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".BreakfastItemDetailActivity"
     android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_spacing"
+        android:id="@+id/food_pic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_spacing"
+        android:id="@+id/food_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_spacing"
+        android:id="@+id/food_price" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_spacing"
+        android:id="@+id/food_desc" />
 </LinearLayout>

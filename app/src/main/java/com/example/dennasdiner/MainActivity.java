@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
                             Intent intent = new Intent(MainActivity.this, BreakfastChoicesActivity.class);
                             startActivity(intent);
                         }
+                        if (position == 1){
+
+                        }
                     }
                 };
         // add the listener to list view
