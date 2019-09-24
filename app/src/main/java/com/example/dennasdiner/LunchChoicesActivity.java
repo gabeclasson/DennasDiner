@@ -21,7 +21,7 @@ public class LunchChoicesActivity extends AppCompatActivity {
                 this, android.R.layout.simple_expandable_list_item_1, Food.lunchFoods
         );
 
-        ListView listFoods = findViewById(R.id.breakfastChoices);
+        ListView listFoods = findViewById(R.id.lunchChoices);
         listFoods.setAdapter(listAdapter);
 
         // Create a listener to listen for when a Food item is clicked on
@@ -30,7 +30,7 @@ public class LunchChoicesActivity extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     public void onItemClick(AdapterView<?> listFoods, View itemView, int position, long id) {
                         // Pass the Food name the user cliks on to BreakfastChoicesActivity
-                        Intent intent = new Intent(BreakfastChoicesActivity.this, BreakfastItemDetailActivity.class);
+                        Intent intent = new Intent(LunchChoicesActivity.this, LunchItemDetailActivity.class);
                         intent.putExtra(BreakfastItemDetailActivity.EXTRA_FOOD_ID, (int) id);
                         startActivity(intent);
                     }

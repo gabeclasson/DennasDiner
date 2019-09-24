@@ -12,9 +12,9 @@ public class Food {
     };
 
     public static final Food[] lunchFoods = {
-            new Food("Pizza", "Three unfertilized ova of one or more members of the species Gallus gallus domesticus, thoroughly mixed with your selection of fermented solid bovine milk solids and animal flesh, cooked until safe to eat", 8.99, R.drawable.omelet),
-            new Food ("The Denna \"Special\"", "3 pankcakes, choice of meat, potato", 7.95, R.drawable.pancakes),
-            new Food("Chicken & Waffles", "Belgian waffles, whipped cream, fresh fruit", 7.50, R.drawable.waffles)
+            new Food("Pizza", "A 12 inch one topping pizza. Freshly baked with authentic Italian dough, and roma red tomato sauce.", 12.99, R.drawable.pizza),
+                    new Food ("The Denna \"Special\"", "Celery. Lots of celery. Served with artisinal celery juice.", 0.99, R.drawable.celery),
+            new Food("Chicken & Waffles", "Belgian waffles, and two pieces of our hand-breaded buttermilk fried chicken. Syrup available on request.", 11.99, R.drawable.chickenandwaffles)
     };
 
     public Food(String foodName, String description, double price, int imageResourceID){

@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(intent);
                         }
                         if (position == 1){
-
+                            Intent intent = new Intent(MainActivity.this, LunchChoicesActivity.class);
+                            startActivity(intent);
                         }
                     }
                 };
